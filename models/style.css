@@ -1,0 +1,80 @@
+@font-face
+{
+  font-family: 'TitilliumWeb', sans-serif;
+}
+@font-face
+{
+  font-family: 'Cabin', sans-serif;
+}
+html, body{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  background-image: url("assets/ryerson.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  max-height:100%;
+}
+
+.title
+{
+
+  margin-top: 250px;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+.minBttn
+{
+  text-align: center;
+}
+
+.bttn
+{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Cabin', sans-serif;
+  font-size: 36px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bttn:hover{
+  background-color: white;
+  color: black;
+}
+
+.left
+{
+  border-right: 2.5px solid #ccc;
+  min-height: 100%;
+}
+.questionCont
+{
+  border: 2px solid black;
+  padding: 25px 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+.questionCont:hover
+{
+  border: 2px solid green;
+
+}
+
+h1{
+  padding-top: 25px;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
