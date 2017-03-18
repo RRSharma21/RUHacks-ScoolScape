@@ -1,0 +1,38 @@
+{
+  "name": "scoolscape",
+  "version": "0.1.0",
+  "description": "Application allowing students to post questions for exams in courses, in which professors can respond with answers.",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
+    "dev": "./node_modules/.bin/nodemon bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eascend/RUHacks-ScoolScape.git"
+  },
+  "author": "Rishabh Kalra, Rishabh Sharma, Ricky Cheung, Evan Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eascend/RUHacks-ScoolScape/issues"
+  },
+  "homepage": "https://github.com/eascend/RUHacks-ScoolScape#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "winston": "^2.3.1"
+  }
+}
